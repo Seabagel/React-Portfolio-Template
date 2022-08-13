@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: brown;
+  color: white;
+  padding: 0 5vw;
+}
+
+section {
+  background-color: green;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+article {
+  background-color: blue;
+  color: white;
+}
