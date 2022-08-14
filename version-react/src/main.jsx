@@ -1,7 +1,7 @@
-import Article from "./article";
+import Article from "./components/article";
 import Section1 from "./pages/home/section1";
 
-export default function main() {
+export default function main({ children }) {
   return (
     <main>
       <p>Inside main</p>

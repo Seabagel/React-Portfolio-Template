@@ -5,6 +5,7 @@
 
 body {
   background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -19,6 +20,7 @@ section {
   display: flex;
   gap: 1rem;
   padding: 1rem;
+  flex-direction: row;
 }
 
 article {
@@ -26,7 +28,11 @@ article {
   color: white;
 }
 
-.jumbotron {
-  height: min(100vh, 720px);
-  filter: saturate(0.15) contrast(0.70) blur(2px);
+@media screen and (max-width: 800px) {
+  section {
+    flex-direction: column;
+  }
+  article {
+    min-width: 100%;
+  }
 }
