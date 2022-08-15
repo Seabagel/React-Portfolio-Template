@@ -29,7 +29,8 @@
   font-size: clamp(1.5rem, 5vw, 2rem);
   text-shadow: 2px 2px 2px #222;
   z-index: 2;
-  padding: 0 5vw;
+  padding: 2rem max(2rem, 10vw);
+
 }
 .jumboContainer {
   position: relative;
