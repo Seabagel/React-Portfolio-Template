@@ -11,7 +11,7 @@ body {
 main {
   background-color: brown;
   color: white;
-  padding: 0 5vw;
+  padding: 5vw;
 }
 
 section {
@@ -35,4 +35,9 @@ article {
   article {
     min-width: 100%;
   }
+}
+img.imageBox {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.5em;
 }

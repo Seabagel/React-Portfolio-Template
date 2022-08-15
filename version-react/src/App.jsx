@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import "./styles/App.css";
-import Main from "./main";
-import Jumbotron from "./components/jumbotron";
+import Main from "./Main";
+import Jumbotron from "./components/Jumbotron";
 
 export default function App() {
   return (
