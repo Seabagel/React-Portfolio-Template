@@ -1,0 +1,18 @@
+@media screen and (max-width: 900px) {
+  section {
+    flex-direction: column;
+  }
+  section.reversed {
+    flex-direction: column;
+  }
+  article {
+    min-width: 100%;
+  }
+  main {
+    padding: 5vw;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+}
