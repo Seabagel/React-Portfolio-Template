@@ -2,6 +2,7 @@
 import "./styles/App.css";
 import Main from "./Main";
 import Jumbotron from "./components/Jumbotron";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         }
       />
       <Main />
+      <Footer />
     </>
   );
 }
