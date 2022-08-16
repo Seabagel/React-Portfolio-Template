@@ -12,7 +12,7 @@ export default function Footer() {
       </div>
       <br />
       <br />
-      <div class="flex-container">
+      <div class="flex-container-inline">
         <div class="flex-items">Instagram</div>
         <div class="flex-items">ArtStation</div>
         <div class="flex-items">SketchFab</div>
