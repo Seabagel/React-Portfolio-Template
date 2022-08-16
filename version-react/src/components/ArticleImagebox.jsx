@@ -1,9 +1,16 @@
 import Article from "./Article";
 
-export default function ArticleImagebox({ imgURL, maxWidth, children }) {
+export default function ArticleImagebox({
+  imgURL,
+  imgAlt,
+  maxWidth,
+  children,
+  headerText,
+}) {
   return (
     <Article maxWidth={maxWidth}>
-      <img src={imgURL} alt="" className="imageBox" />
+      <img src={imgURL} alt={imgAlt} />
+      {headerText ? <h2>{headerText}</h2> : ""}
       {children}
     </Article>
   );

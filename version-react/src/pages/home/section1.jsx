@@ -9,7 +9,6 @@ export default function section1() {
         often used in React applications to add dynamically-computed styles at
         render time. See also FAQ: Styling and CSS.
       </p>
-      <br />
       <p>
         The style attribute accepts a JavaScript object with camelCased
         properties rather than a CSS string. This is consistent with the DOM

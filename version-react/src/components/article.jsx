@@ -1,4 +1,4 @@
-export default function article({ maxWidth, children }) {
+export default function article({ maxWidth, children, headerText }) {
   // Set flexGrow to 1 if there's no props passed by, otherwise use the prop's value
   const componentStyle = (maxWidth = 100) => ({
     maxWidth: `${maxWidth}%`,
@@ -6,6 +6,7 @@ export default function article({ maxWidth, children }) {
 
   return (
     <article style={componentStyle(maxWidth)}>
+      {headerText ? <h2 className="articleHeader">{headerText}</h2> : ""}
       {children}
     </article>
   );
