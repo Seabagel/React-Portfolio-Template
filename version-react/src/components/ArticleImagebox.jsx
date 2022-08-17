@@ -1,17 +1,14 @@
-import Article from "./Article";
-
 export default function ArticleImagebox({
   imgURL,
   imgAlt,
-  maxWidth,
-  children,
   headerText,
+  children,
 }) {
   return (
-    <Article maxWidth={maxWidth}>
+    <article style={{flexBasis: "1"}}>
       <img src={imgURL} alt={imgAlt} />
       {headerText ? <h2>{headerText}</h2> : ""}
       {children}
-    </Article>
+    </article>
   );
 }
