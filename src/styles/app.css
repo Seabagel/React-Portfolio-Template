@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background-color: black;
   color: white;
@@ -17,7 +16,6 @@ main {
   color: white;
   padding: 2rem 0;
 }
-
 section {
   background-color: green;
   margin: 0 auto;
@@ -25,30 +23,15 @@ section {
   padding: 1rem 1rem 2rem;
   grid-gap: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(36ch, 1fr));
   border-bottom: red 2px solid;
+  grid-template-columns: repeat(auto-fill, 1fr);
 }
-
+.grid3 {
+  grid-template-columns: repeat(auto-fill, minmax(36ch, 1fr));
+}
+.grid2 {
+  grid-template-columns: repeat(auto-fill, minmax(40ch, 1fr));
+}
 section.reversed {
   flex-direction: row-reverse;
-}
-
-article {
-  background-color: blue;
-  color: white;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: 240px;
-}
-article img {
-  width: 100%;
-  position: relative;
-  border-radius: 3px;
-}
-article p {
-  margin: 1rem;
-}
-article h2 {
-  margin: 1rem;
-  margin-bottom: 0;
 }

@@ -41,3 +41,9 @@ footer ul li {
   cursor: pointer;
   filter: saturate(2) brightness(0.85) opacity(0.9) hue-rotate(180deg);
 }
+footer .disclaimer {
+  margin-bottom: 1rem;
+}
+footer .copyright {
+  margin-top: 1.5rem;
+}

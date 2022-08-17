@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 // always add mobile.css after everything
 import "./styles/mobile.css"
+import "./styles/article.css"
 
 export default function App() {
   return (

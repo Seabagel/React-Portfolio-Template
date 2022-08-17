@@ -1,4 +1,4 @@
-import "../styles/jumbotron.css";
+import "../styles/header.css";
 
 export default function jumbotron({ backgroundUrl }) {
   const componentStyle = (backgroundUrl = "") => ({
